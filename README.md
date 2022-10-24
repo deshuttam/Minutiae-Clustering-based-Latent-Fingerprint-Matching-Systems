@@ -31,11 +31,17 @@ After extracting the minutiae features, a fixed-length local Minutiae Arrangemen
 ![image](https://user-images.githubusercontent.com/107185323/197580923-e92d1fee-e427-4df0-b56e-7e65ea2182aa.png)
 
 ### Fingerprint Hash-Table
+
 Here, ‘HTindex’ indicates the hash index value. MAV is the one-dimensional minutiae arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg values, and ‘HTsize’ is the size of the hash table.
 
 ![image](https://user-images.githubusercontent.com/107185323/197580966-96588d14-4e6f-4a33-a8f8-a9fdd5f34bf8.png)
 
 
+The repository includes:
 
+* Source code for Fingerprint Preprocessing and Feature Extraction.
+* Matlab code.
+* Source code for Latent minutiae representation, Fingerprint Hash-Table Construction and Matching.
+* Visual Studio, C, C++, Shell Script
 
 

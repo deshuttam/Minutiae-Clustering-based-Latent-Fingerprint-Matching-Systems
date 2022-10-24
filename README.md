@@ -22,15 +22,6 @@ This descriptor is based on the neighborhood geometry pattern and is invariant t
 
 ![image](https://user-images.githubusercontent.com/107185323/197579810-df6e068a-e2b0-4a86-a1ca-38fcf962eb5b.png)
 
-![image](https://user-images.githubusercontent.com/107185323/197580708-e664cadc-6082-45b1-9b0d-0ab2124e9c5c.png)
-
-
-![image](https://user-images.githubusercontent.com/107185323/197580835-5d79e661-af0f-4973-907b-ce844512e49d.png)
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/107185323/197580291-b220f096-ef66-408b-9e7f-66476fc9301d.png)
 
@@ -40,6 +31,6 @@ This descriptor is based on the neighborhood geometry pattern and is invariant t
 ![image](https://user-images.githubusercontent.com/107185323/197580966-96588d14-4e6f-4a33-a8f8-a9fdd5f34bf8.png)
 
 
-![Uploading image.png…]()
+
 
 

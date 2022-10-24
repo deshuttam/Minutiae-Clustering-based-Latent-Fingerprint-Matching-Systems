@@ -44,4 +44,16 @@ The repository includes:
 * Source code for Latent minutiae representation, Fingerprint Hash-Table Construction and Matching.
 * Visual Studio, C, C++, Shell Script
 
+### Citing
 
+@InProceedings {10.1007/978-981-13-9184-2_35,
+author="Deshpande, Uttam U. Deshpande",
+editor="Santosh, K. C. and Hegadi, Ravindra S.",
+title="Experimental Study on Latent Fingerprint Matching Using Clustered Minutiae Patterns",
+booktitle="Recent Trends in Image Processing and Pattern Recognition",
+year="2019",
+publisher="Springer Singapore",
+address="Singapore",
+pages="381--394",
+isbn="978-981-13-9184-2"
+}

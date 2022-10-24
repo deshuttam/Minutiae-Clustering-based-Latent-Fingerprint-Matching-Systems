@@ -30,7 +30,7 @@ After extracting the minutiae features, a fixed-length local Minutiae Arrangemen
 
 ![image](https://user-images.githubusercontent.com/107185323/197580923-e92d1fee-e427-4df0-b56e-7e65ea2182aa.png)
 
-### Fingerprint Hash-Table
+### Fingerprint Hash-Table and Matching
 
 Here, ‘HTindex’ indicates the hash index value. MAV is the one-dimensional minutiae arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg values, and ‘HTsize’ is the size of the hash table.
 
@@ -56,3 +56,23 @@ pages= {381-394},
 DOI= {https://doi.org/10.1007/978-981-13-9184-2_35},
 isbn= {978-981-13-9184-2},
 }
+
+### Requirements: Software
+* MATLAB
+* Visual Studio
+
+## Preprocessing and Feature Extraction
+* Place input images in `Preprocessing` folder.
+* Run `extract_db_FVC_2004_DB_4.m` code to preprocess and extract the minutiae features.
+* Obtain the minutiae images in `Preprocessing` folder.
+
+## Latent minutiae representation, and Hash-Table Construction
+* Place the minutia image obtained in the previous step into `jpg` folder.
+* Run `makedb` command to construct the hash table from the latent minutiae cluster.
+* Refer the work for refernce https://github.com/opu-imp/LLAH-Nakai.
+
+## Matching
+* Run `server.exe` command.
+* Run `client.ext` command to turn the camera on.
+* Print the minutiae image to be tested on a paper and hold infront of the camera to perform matching.
+* Refer the work for refernce https://github.com/opu-imp/LLAH-Nakai.

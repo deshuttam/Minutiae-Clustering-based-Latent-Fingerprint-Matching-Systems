@@ -47,14 +47,12 @@ The repository includes:
 ### Citing
 
 @InProceedings {10.1007/978-981-13-9184-2_35,
-author="Deshpande, Uttam U. Deshpande",
-editor="Santosh, K. C. and Hegadi, Ravindra S.",
-title="Experimental Study on Latent Fingerprint Matching Using Clustered Minutiae Patterns",
-booktitle="Recent Trends in Image Processing and Pattern Recognition",
-year="2019",
-publisher="Springer Singapore",
-address="Singapore",
-pages="381--394",
-DOI= "https://doi.org/10.1007/978-981-13-9184-2_35"
-isbn="978-981-13-9184-2"
+author= {Deshpande, Uttam U. Deshpande},
+editor= {Santosh, K. C. and Hegadi, Ravindra S.},
+title= {Experimental Study on Latent Fingerprint Matching Using Clustered Minutiae Patterns},
+booktitle= {Recent Trends in Image Processing and Pattern Recognition},
+year= {2019},
+pages= {381-394},
+DOI= {https://doi.org/10.1007/978-981-13-9184-2_35},
+isbn= {978-981-13-9184-2},
 }

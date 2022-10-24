@@ -14,24 +14,24 @@ This descriptor is based on the neighborhood geometry pattern and is invariant t
 ![image](https://user-images.githubusercontent.com/107185323/197578591-02889a6b-3432-4aff-8221-7255660394bb.png)
 
 ## Minutiae Feature Extraction
-The algorithm extracts the minutiae features from the skeletonized fingerprint obtained from the previous step. Skeletonization operation on low-quality fingerprints may produce spurs, bridges, ridge breaks, irregular ridge endings, resulting in false minutiae.
+The algorithm extracts the minutiae features from the skeletonized fingerprints. 
 
 ![image](https://user-images.githubusercontent.com/107185323/197579748-b189e3c1-0c68-4be1-964f-4070362c6d01.png)
 
-The algorithm examines the thinned image containing the pixel ‘p’ after the thinning operation and locates minutiae. A Crossing-Number (CN) [100] selects a value from 8-neighborhood pixels (3 x 3 windows) with ‘p’ as a center and traversing in an anticlockwise (circular) manner, as shown in Figure 4
+The algorithm examines the thinned image containing the pixel ‘p’ after the thinning operation and locates minutiae. A Crossing-Number (CN) selects a value from 8-neighborhood pixels (3 x 3 windows) with ‘p’ as a center and traversing in an anticlockwise (circular) manner.
 
 ![image](https://user-images.githubusercontent.com/107185323/197579810-df6e068a-e2b0-4a86-a1ca-38fcf962eb5b.png)
 
 ## Latent minutiae representation
-After extracting the minutiae features, we define fixed-length local Minutiae Arrangement Vectors (MAV) for a complete image based on the distinctive Minutiae neighborhood Arrangements (MA). Fingerprint hash-table from the MAV is constructed for the gallery fingerprint database. Similarly, we build the hash table for input probe (query) fingerprints and compare the MAV from both tables to determine the fingerprint similarity. The benefit of the proposed approach is that it does not perform prior fingerprint alignment and does not depend on singular or key points. In the proposed work, we use combinations of different minutiae triangular structures to generate the invariants. Next, we explain the fingerprint registration and retrieval process. 
+After extracting the minutiae features, a fixed-length local Minutiae Arrangement Vectors (MAV) for a complete image based on the distinctive Minutiae neighborhood Arrangements (MA) is defined. Fingerprint hash-table from the MAV is constructed for the gallery fingerprint database. Similarly, we build the hash table for input probe (query) fingerprints and compare the MAV from both tables to determine the fingerprint similarity. The benefit of the proposed approach is that it does not perform prior fingerprint alignment and does not depend on singular or key points. In the proposed work, we use combinations of different minutiae triangular structures to generate the invariants. Next, we explain the fingerprint registration and retrieval process. 
 
 ![image](https://user-images.githubusercontent.com/107185323/197580291-b220f096-ef66-408b-9e7f-66476fc9301d.png)
 
-Here, ‘HTindex’ indicates the hash index value. MAV is the one-dimensional minutiae 
-arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg
-values, and ‘HTsize’ is the size of the hash table.
 
 ![image](https://user-images.githubusercontent.com/107185323/197580923-e92d1fee-e427-4df0-b56e-7e65ea2182aa.png)
+
+### Fingerprint Hash-Table
+Here, ‘HTindex’ indicates the hash index value. MAV is the one-dimensional minutiae arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg values, and ‘HTsize’ is the size of the hash table.
 
 ![image](https://user-images.githubusercontent.com/107185323/197580966-96588d14-4e6f-4a33-a8f8-a9fdd5f34bf8.png)
 

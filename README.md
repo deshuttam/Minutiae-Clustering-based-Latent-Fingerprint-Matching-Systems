@@ -3,7 +3,7 @@ By Uttam U. Deshpande et al.,
 
 
 A robust hash-based indexing techniques are proposed to perform matching on large latent fingerprint databases. In these methods, minutia local neighborhood information is extracted to create minutiae features. These obtained minutiae features are invariant to scale, translation, rotation and each minutia is represented as feature vector. This information is further used to construct hash-table and matching is performed
-* To understand the implementation details, refer to the following paper, https://doi.org/10.1007/978-981-13-9184-2_35
+* To understand the implementation details, refer to the following paper, [Minutiae-Clustering-based-Latent-Fingerprint-Matching-Systems](https://doi.org/10.1007/978-981-13-9184-2_35)
 
 
 ## Introduction 
@@ -69,10 +69,10 @@ isbn= {978-981-13-9184-2},
 ## Latent minutiae representation, and Hash-Table Construction
 * Place the minutia image obtained in the previous step into `jpg` folder.
 * Run `makedb` command to construct the hash table from the latent minutiae cluster.
-* Refer the work for refernce https://github.com/opu-imp/LLAH-Nakai.
+* Refer the work for [refernce](https://github.com/opu-imp/LLAH-Nakai).
 
 ## Matching
 * Run `server.exe` command.
 * Run `client.ext` command to turn the camera on.
 * Print the minutiae image to be tested on a paper and hold infront of the camera to perform matching.
-* Refer the work for refernce https://github.com/opu-imp/LLAH-Nakai.
+* Refer the work for [refernce](https://github.com/opu-imp/LLAH-Nakai).

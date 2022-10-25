@@ -32,7 +32,7 @@ After extracting the minutiae features, a fixed-length local Minutiae Arrangemen
 
 ### Fingerprint Hash-Table and Matching
 
-Hash index is calculated using the ‘HTindex’ formula. Here, MAV is the one-dimensional minutiae arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg values, and ‘HTsize’ is the size of the hash table.
+Hash index is calculated using the ‘HTindex’ formula. Here, MAV is the one-dimensional minutiae arrangement vector of length mC4, ‘k ‘is the quantization level used to discretize the IAvg values, and ‘HTsize’ is the size of the hash table. The hash value is used to identify the query fingerprint and matching results are obtained.
 
 ![image](https://user-images.githubusercontent.com/107185323/197580966-96588d14-4e6f-4a33-a8f8-a9fdd5f34bf8.png)
 

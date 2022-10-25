@@ -42,7 +42,7 @@ The repository includes:
 * Source code for Fingerprint Preprocessing and Feature Extraction.
 * Matlab code.
 * Source code for Latent minutiae representation, Fingerprint Hash-Table Construction and Matching.
-* Visual Studio, C, C++, Shell Script
+* Visual Studio code, C, C++, Shell Script codes.
 
 ### Citing
 

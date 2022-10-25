@@ -69,10 +69,10 @@ isbn= {978-981-13-9184-2},
 ## Latent minutiae representation, and Hash-Table Construction
 * Place the minutia image obtained in the previous step into `jpg` folder.
 * Run `makedb` command to construct the hash table from the latent minutiae cluster.
-* Refer the work for [refernce](https://github.com/opu-imp/LLAH-Nakai).
+* Refer the work for [reference](https://github.com/opu-imp/LLAH-Nakai).
 
 ## Matching
 * Run `server.exe` command.
 * Run `client.ext` command to turn the camera on.
 * Print the minutiae image to be tested on a paper and hold infront of the camera to perform matching.
-* Refer the work for [refernce](https://github.com/opu-imp/LLAH-Nakai).
+* Refer the work for [reference](https://github.com/opu-imp/LLAH-Nakai).
